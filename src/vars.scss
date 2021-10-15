@@ -1,0 +1,28 @@
+//COLOR
+
+$white: #fff;
+$bg-color: #475465;
+$alt-bg-color: #556c96;
+$font-color: #eeedff;
+$light-color: #b6cde8;
+$red-color: #ff584d;
+
+// SPACE
+
+$mXL: 5rem;
+$mL: 2.5rem;
+$mM: 1rem;
+$mS: 0.5rem;
+
+$pXL: 5rem;
+$pL: 2.5rem;
+$pM: 1rem;
+$pS: 0.5rem;
+
+$bor-rad: 5px;
+
+@mixin flexColumn {
+    display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
